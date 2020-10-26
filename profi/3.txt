@@ -1,3 +1,6 @@
 Po = 0.55, Pp = 0.45, k = 1
 X^2 = (0.5N-0.45N)^2/0.45N + (0.5N-0.55N)^2/0.55N = 0.(01)N => N >= 380
 N = 380
+
+Приложение:
+1. Таблица — критические точки распределения хи-квадрат: https://www.matematicus.ru/wp-content/uploads/2019/02/kriticheskie-tochki-raspredeleniya.png
