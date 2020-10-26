@@ -1,0 +1,8 @@
+SELECT distinct department
+FROM employees
+where position = 'Software Developer'
+group by department
+having count(distinct(full_name))<5
+UNION
+Select distinct department from employees
+where department not IN (SElect distinct department from employees where position = 'Software Developer')
